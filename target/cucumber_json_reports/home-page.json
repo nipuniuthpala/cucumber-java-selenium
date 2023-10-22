@@ -1,0 +1,165 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-22T14:33:38.919Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4041000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.web.driver.Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate Website",
+        "description": "",
+        "id": "assignment-testing.;validate-website",
+        "after": [
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.web.driver.TearDown.quitDriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1590000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the Home Page \"http://the-internet.herokuapp.com/\" of heroku Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://the-internet.herokuapp.com/",
+                  "offset": 23
+                }
+              ],
+              "location": "com.test.web.homePage.HomePageSteps.i_am_on_the_Home_Page_of_heroku_Website(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 575000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select AB Test link",
+            "match": {
+              "location": "com.test.web.homePage.HomePageSteps.i_select_ABTest_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the heading",
+            "match": {
+              "location": "com.test.web.homePage.HomePageSteps.i_validate_heading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click back",
+            "match": {
+              "location": "com.test.web.homePage.HomePageSteps.i_click_back()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select dropdown and select option1",
+            "match": {
+              "location": "com.test.web.dropDownPage.DropDownPageSteps.i_click_on_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click back",
+            "match": {
+              "location": "com.test.web.homePage.HomePageSteps.i_click_back()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Frames",
+            "match": {
+              "location": "com.test.web.framesPage.FramesPageSteps.i_click_on_frames()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I see the hyperlinks",
+            "match": {
+              "location": "com.test.web.framesPage.FramesPageSteps.i_see_hyperlinks()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test_Web"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Assignment testing.",
+    "description": "  web site assignment.",
+    "id": "assignment-testing.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/test/web/TestWeb.feature",
+    "tags": [
+      {
+        "name": "@Test_Web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
